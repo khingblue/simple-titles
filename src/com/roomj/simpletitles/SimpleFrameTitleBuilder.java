@@ -14,11 +14,6 @@ public class SimpleFrameTitleBuilder extends FrameTitleBuilder {
 
   @Override
   public String getProjectTitle(@NotNull Project project) {
-    return defaultBuilder.getProjectTitle(project);
-  }
-
-  @Override
-  public String getFileTitle(@NotNull Project project, @NotNull VirtualFile virtualFile) {
-    return virtualFile.getName();
+    return "";
   }
 }
